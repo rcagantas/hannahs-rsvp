@@ -1,0 +1,52 @@
+.customcss body {
+  font: 1rem Montserrat, sans-serif;
+}
+.customcss body header {
+  height: 100vh;
+  min-height: 500px;
+  background-image: url(../resources/cover.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
+  margin-bottom: 5rem;
+}
+.customcss body header h1 {
+  font: 8rem "Alex Brush", serif;
+}
+.customcss body header h1.ampersand {
+  font: 5rem "Alex Brush", serif;
+}
+.customcss body header p {
+  font: 3rem "Alex Brush", serif;
+}
+.customcss body h1 {
+  font: 4rem "Alex Brush", serif;
+}
+.customcss body .groom-profile-background {
+  height: 20rem;
+  background-image: url(../resources/groom-profile-tall.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.customcss body .bride-profile-background {
+  height: 20rem;
+  background-image: url(../resources/bride-profile-tall.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.customcss body section {
+  margin-bottom: 5rem;
+}
+.customcss body .fa {
+  padding: 20px;
+  font-size: 1.5rem;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=custom.css.map */

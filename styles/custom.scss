@@ -1,0 +1,55 @@
+$font-stack: Montserrat, sans-serif;
+$font-script: 'Alex Brush', serif;
+
+.customcss {
+
+    body {
+
+        header {
+            height: 100vh;
+            min-height: 500px;
+            background-image: url(../resources/cover.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+      
+            color: white;
+            margin-bottom: 5rem;
+    
+            h1 { font: 8rem $font-script; }
+            h1.ampersand { font: 5rem $font-script; }
+            p { font: 3rem $font-script; }
+        }
+
+        h1 { font: 4rem $font-script; }
+
+        font: 1rem $font-stack;
+        .groom-profile-background {
+            height: 20rem;
+            background-image: url(../resources/groom-profile-tall.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        .bride-profile-background {
+            height: 20rem;
+            background-image: url(../resources/bride-profile-tall.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        section {
+            margin-bottom: 5rem;
+        }
+
+        .fa {
+            padding: 20px;
+            font-size: 1.5rem;
+            width: 50px;
+            text-align: center;
+            text-decoration: none;
+          }
+    }
+}
