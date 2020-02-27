@@ -16,7 +16,8 @@ module.exports = (grunt) => {
             server: {
                 options: {
                     port: 9001,
-                    keepalive: true
+                    keepalive: true,
+                    livereload: true
                 }
             }
         },
