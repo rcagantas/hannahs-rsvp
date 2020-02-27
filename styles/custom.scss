@@ -45,11 +45,16 @@ $font-script: 'Alex Brush', serif;
         }
 
         .fa {
-            padding: 20px;
+            text-rendering: optimizeLegibility;
             font-size: 1.5rem;
-            width: 50px;
-            text-align: center;
-            text-decoration: none;
-          }
+            margin: 1rem;
+        }
+        // .fa {
+        //     padding: 20px;
+        //     font-size: 1.5rem;
+        //     width: 50px;
+        //     text-align: center;
+        //     text-decoration: none;
+        //   }
     }
 }
