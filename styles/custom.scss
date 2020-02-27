@@ -17,7 +17,7 @@ $font-script: 'Alex Brush', serif;
             color: white;
             margin-bottom: 5rem;
     
-            h1 { font: 8rem $font-script; }
+            h1 { font: 7rem $font-script; }
             h1.ampersand { font: 5rem $font-script; }
             p { font: 3rem $font-script; }
         }
@@ -49,12 +49,5 @@ $font-script: 'Alex Brush', serif;
             font-size: 1.5rem;
             margin: 1rem;
         }
-        // .fa {
-        //     padding: 20px;
-        //     font-size: 1.5rem;
-        //     width: 50px;
-        //     text-align: center;
-        //     text-decoration: none;
-        //   }
     }
 }
