@@ -17,9 +17,9 @@ $font-script: 'Alex Brush', serif;
             color: white;
             margin-bottom: 5rem;
     
-            h1 { font: 7rem $font-script; }
-            h1.ampersand { font: 5rem $font-script; }
-            p { font: 3rem $font-script; }
+            h1.lead { font: 7rem $font-script; }
+            h1.lead.ampersand { font: 5rem $font-script; }
+            h3.lead { font: 3rem $font-script; }
         }
 
         h1 { font: 4rem $font-script; }

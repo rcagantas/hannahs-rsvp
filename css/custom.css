@@ -12,13 +12,13 @@
   color: white;
   margin-bottom: 5rem;
 }
-.customcss body header h1 {
+.customcss body header h1.lead {
   font: 7rem "Alex Brush", serif;
 }
-.customcss body header h1.ampersand {
+.customcss body header h1.lead.ampersand {
   font: 5rem "Alex Brush", serif;
 }
-.customcss body header p {
+.customcss body header h3.lead {
   font: 3rem "Alex Brush", serif;
 }
 .customcss body h1 {
