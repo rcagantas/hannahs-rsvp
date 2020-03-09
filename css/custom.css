@@ -18,21 +18,26 @@ header {
   background-repeat: no-repeat;
   background-attachment: fixed;
   color: whitesmoke;
-  margin-bottom: 30px; }
+  margin-bottom: 80px; }
   header h1.lead {
     font-size: 6rem; }
   header h2.lead {
     font-size: 3rem; }
 
 section {
-  margin: 80px; }
+  margin-bottom: 80px; }
+
+.text-container {
+  margin-top: 20px;
+  margin-bottom: 20px; }
 
 .cropfit {
-  max-height: 75vh;
+  max-height: 90vh;
   display: flex;
   justify-content: center;
   align-items: center;
   overflow: hidden; }
   .cropfit img {
     flex-shrink: 0;
-    width: 100%; }
+    width: 100%;
+    margin: 0; }
