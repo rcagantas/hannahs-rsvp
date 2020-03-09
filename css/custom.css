@@ -1,7 +1,15 @@
-.customcss body {
-  font: 1rem Montserrat, sans-serif;
-}
-.customcss body header {
+@import url(https://fonts.googleapis.com/css?family=Raleway|Alex+Brush&display=swap);
+body {
+  font-family: Raleway, sans-serif;
+  margin: 0; }
+
+h1 {
+  font: 4rem "Alex Brush", serif; }
+
+h2 {
+  font: 2rem "Alex Brush", serif; }
+
+header {
   height: 100vh;
   min-height: 500px;
   background-image: url(../resources/cover.jpg);
@@ -9,42 +17,22 @@
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  color: white;
-  margin-bottom: 5rem;
-}
-.customcss body header h1.lead {
-  font: 7rem "Alex Brush", serif;
-}
-.customcss body header h1.lead.ampersand {
-  font: 5rem "Alex Brush", serif;
-}
-.customcss body header h3.lead {
-  font: 3rem "Alex Brush", serif;
-}
-.customcss body h1 {
-  font: 4rem "Alex Brush", serif;
-}
-.customcss body .groom-profile-background {
-  height: 20rem;
-  background-image: url(../resources/groom-profile-tall.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-.customcss body .bride-profile-background {
-  height: 20rem;
-  background-image: url(../resources/bride-profile-tall.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-.customcss body section {
-  margin-bottom: 5rem;
-}
-.customcss body .fa {
-  text-rendering: optimizeLegibility;
-  font-size: 1.5rem;
-  margin: 1rem;
-}
+  color: whitesmoke;
+  margin-bottom: 30px; }
+  header h1.lead {
+    font-size: 6rem; }
+  header h2.lead {
+    font-size: 3rem; }
 
-/*# sourceMappingURL=custom.css.map */
+section {
+  margin: 80px; }
+
+.cropfit {
+  max-height: 75vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; }
+  .cropfit img {
+    flex-shrink: 0;
+    width: 100%; }

@@ -4,9 +4,6 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat|Alex+Brush|Meddon&display=swap" rel="stylesheet">
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -45,8 +42,7 @@
       <div class="row h-100 align-items-center">
         <div class="col-12 text-center">
           <h1 class="lead">J.T. &amp; Hannah</h1>
-          <h3 class="lead">30 Jan, 2021</h3>
-          <h3 id="countdown"></h3>
+          <h2 class="lead">30 Jan, 2021</h3>
         </div>
       </div>
     </div>
@@ -54,9 +50,16 @@
   </header>
   <body>
 
+    <section class="container text-center">
+      <h1 id="countdown"></h1>
+    </section>
+
     <section class="container">
       <div class="row" id="about_bride">
-        <div class="col-sm-6 bride-profile-background">
+        <div class="col-sm-6 cropfit">
+          <img class="lazy" 
+            src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
+            data-src="resources/bride-profile.jpg" alt="The Bride"/>
         </div>
   
         <div class="col-sm-6 my-auto text-center">
@@ -108,32 +111,45 @@
           </div>
       </div>
 
-      <div class="col-sm-6 groom-profile-background">
+      <div class="col-sm-6 cropfit">
+        <img class="lazy" 
+          src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
+          data-src="resources/groom-profile.jpg" alt="The Groom"/>
       </div>
+    </section>
+
+    <section class="container cropfit">
+      <img class="lazy" 
+        src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
+        data-src="resources/fill1.jpg" alt="Filler Image"/>
     </section>
 
     <section class="container text-center" id="wedding">
       <h1>The Wedding</h1>
-      <div class="row">
+      <div class="row justify-content-md-center">
         <div class="col-sm-6 my-auto">
           <h2><a href="https://www.google.com/maps/dir/?api=1&destination=National%20Shrine%20of%20the%20Sacred%20Heart%204%20Sacred%20Heart%20St%20San%20Antonio%20Village%2C%20Makati%20Metro%20Manila%2C%20Philippines@14.564083,121.0140181">National Shrine of the Sacred Heart of Jesus</a></h2>
           <p>4 Sacred Heart St, San Antonio Village, Makati, Metro Manila, Philippines</p>
           <h3><a href="resources/wedding.ics">Jan 30, 2021<br>12:00 noon</a></h3>
         </div>
+
         <div class="col-sm-6">
           <div class="embed-responsive embed-responsive-16by9">
             <div class="embed-responsive-item">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.6134685985603!2d121.0118294144155!3d14.564082989825705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c90a7a29b149%3A0xe710f19bc52e9219!2sNational%20Shrine%20of%20the%20Sacred%20Heart!5e0!3m2!1sen!2ssg!4v1582627004088!5m2!1sen!2ssg"></iframe>
+              <iframe
+                class="lazy"
+                data-src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d16189482.039087918!2d103.3936940098956!3d7.841540400088604!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c90a7a29b149%3A0xe710f19bc52e9219!2sNational%20Shrine%20of%20the%20Sacred%20Heart!5e0!3m2!1sen!2ssg!4v1583600883413!5m2!1sen!2ssg">
+              </iframe>
             </div>
           </div>
-
         </div>
+
       </div>
     </section>
 
     <section class="container text-center" id="reception">
       <h1>The Reception</h1>
-      <div class="row">
+      <div class="row justify-content-md-center">
         <div class="col-sm-6 my-auto">
           <h2><a href="https://www.google.com/maps/dir/?api=1&destination=New%20World%20Makati%20Hotel%20Esperanza%20Street%20corner%20Makati%20Avenue%2C%20Ayala%20Center%20Makati%201228%20Metro%20Manila%2C%20Philippines@14.5511643,121.0215354">New World Hotel Makati</a></h2>
           <p>Esperanza Street corner Makati Avenue, Ayala Center, Makati, 1228 Metro Manila, Philippines</p>
@@ -141,21 +157,33 @@
           <h3>Strictly Formal</h3>
           <p>Coat and tie for the gentlemen.<br>Long dress for the ladies.</p>
         </div>
+
         <div class="col-sm-6">
           <div class="embed-responsive embed-responsive-16by9">
             <div class="embed-responsive-item">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.8395861889426!2d121.01934671441536!3d14.551164289833928!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c91a9c038ed5%3A0x99df650919ca81d5!2sNew%20World%20Makati%20Hotel!5e0!3m2!1sen!2ssg!4v1582627251969!5m2!1sen!2ssg"></iframe>
+              <iframe class="lazy"
+                data-src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d16189730.29608542!2d103.39744844516986!3d7.835158285358074!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c91a9c038ed5%3A0x99df650919ca81d5!2sNew%20World%20Makati%20Hotel!5e0!3m2!1sen!2ssg!4v1583601086443!5m2!1sen!2ssg">
+              </iframe>
             </div>
           </div>
         </div>
+
       </div>
+    </section>
+
+    <section class="container cropfit">
+      <img class="lazy" 
+        src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
+        data-src="resources/fill2.jpg" alt="Filler Image"/>
     </section>
 
     <section class="container" id="rsvp">
       <div class="row justify-content-md-center">
         <div class="col-sm-8">
           <div class="embed-responsive embed-responsive-16by9">
-            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeQs__Be_J_CFLn57HOUq9aUIArhG2akCS-dR5rmYOzhOI9OA/viewform?usp=sf_link" width="800" height="1500" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+            <iframe class="lazy" 
+              data-src="https://docs.google.com/forms/d/e/1FAIpQLSeQs__Be_J_CFLn57HOUq9aUIArhG2akCS-dR5rmYOzhOI9OA/viewform?usp=sf_link">
+            </iframe>
           </div>    
         </div>
       </div>
@@ -167,6 +195,16 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    <script src="js/countdown.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@13.0.1/dist/lazyload.min.js"></script>
+
+    <script>
+      $(document).ready(function() {
+        var lazyLoadInstance = new LazyLoad({
+          elements_selector: ".lazy"
+        });
+        lazyLoadInstance.update();
+      });
+    </script>
+
   </body>
 </html>

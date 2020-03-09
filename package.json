@@ -9,13 +9,17 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "livereload-js": "^3.2.1"
-  },
+  "dependencies": {},
   "devDependencies": {
+    "browser-sync": "^2.26.7",
     "grunt": "^1.0.4",
     "grunt-contrib-connect": "^2.1.0",
     "grunt-contrib-sass": "^1.0.0",
-    "grunt-contrib-watch": "^1.1.0"
+    "grunt-contrib-watch": "^1.1.0",
+    "gulp": "^4.0.2",
+    "gulp-purgecss": "^2.1.0",
+    "gulp-ruby-sass": "^4.0.0",
+    "gulp-sass": "^4.0.2",
+    "livereload-js": "^3.2.1"
   }
 }

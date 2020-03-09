@@ -1,0 +1,44 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway|Alex+Brush&display=swap);
+
+$font-stack: Raleway, sans-serif;
+$font-script: 'Alex Brush', serif;
+
+body {
+    font-family: $font-stack;
+    margin: 0;
+}
+
+h1 { font: 4rem $font-script; }
+h2 { font: 2rem $font-script; }
+
+header {
+    height: 100vh;
+    min-height: 500px;
+    background-image: url(../resources/cover.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: whitesmoke;
+    margin-bottom: 30px;
+
+    h1.lead { font-size: 6rem; }
+    h2.lead { font-size: 3rem; }
+}
+
+section {
+    margin: 80px;
+}
+
+.cropfit {
+    max-height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+    img {
+        flex-shrink:0;
+        width: 100%;
+    }    
+}
