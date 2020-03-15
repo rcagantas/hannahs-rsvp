@@ -15,7 +15,7 @@ h2 { font: 2rem $font-script; }
 header {
     height: 100vh;
     min-height: 500px;
-    background-image: url(../resources/jpg/cover.jpg);
+    //background-image: url(../resources/jpg/cover.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -52,4 +52,23 @@ section {
 
 .social-media-row a {
     margin: 8px;
+}
+
+ul {
+    padding: 0;
+    li {
+        list-style-type: none;
+    }
+}
+
+.circle-img {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    margin-bottom: 30px;
+
+    img {
+        height: 100%;
+        border-radius: 50%;
+    }
 }
